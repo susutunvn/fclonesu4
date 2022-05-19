@@ -1,20 +1,23 @@
 {
-	"name": "CloneBot",
-	"description": "CloneBot",
-	"repository": "https://github.com/streambphc/Fclone_Tg_Bot",
-	"keywords": ["Gclone","TG"],
+	"name": "Super Fclone Bot",
+	"description": "Super Fclone Bot",
+	"repository": "https://github.com/kzinthant-kas/superfclone",
+	"keywords": ["fclone","FG"],
+        "website": "https://t.me/drivetalk",
+        "success_url": "https://github.com/kzinthant-kas/superfclone/blob/main/README.md",
 	"env": {
-		"BOT_TOKEN": {
-			"description": "Get from Telegram Botfather"
+		"telegram_token": {
+			"description": "Get one from @botfather by creating new bot"
 		},
-		"USER_ID": {
-			"description": "get from telegram get_id_bot. For More than 1 User Give IDs seperated by ','.The First Guy is the Admin"
+		"user_ids": {
+			"description": "https://t.me/MissRose_bot in MissRose, type /id and put here, multiple users separate by comma ,"
 		},
-		"GRP_ID": {
-			"description": "Create a Super Group(s) and add ID Here (if More than 1 group Give IDs seperated by ','"
+		"group_ids": {
+			"description": "Put group id, if there is no group, put -1",
+      "value": "-1"
 		},
-		"GC_PARA_OVERRIDE": {
-			"description": "Leave this if u Dont Know",
+		"gclone_para_override": {
+			"description": "Skip this if you don't know",
 			"required": false
 		}
 	},
